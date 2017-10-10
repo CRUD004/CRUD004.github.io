@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>current</title>
+		<style>			
+			body{
+				margin = 0 0 0 0;
+				padding = 0 0 0 0;
+			}
+			#header{
+				height : 150px;
+				width : 100%;
+				background-color:#981c1e;
+				text-align: center;
+			}
+			
+			img.main_img{
+				height: 80%;
+			}
+			
+			#nav{
+				width : 20%;
+				height : 500px;
+				float:left;
+				text-align: center;
+				background-color:black;
+				border-right: 1px solid #e0d5c1;
+			}
+			#content{
+				width : 80%;
+				height : 500px;
+				box-sizing: border-box;
+				float:left;
+				overflow-y: scroll;
+			}
+			#footer{
+				width : 100%;
+				height : 50px;
+				padding-right: 20px;
+				text-align: right;
+				clear: both;
+				border-top: 1px solid #e0d5c1;
+				color: white;
+			}
+			a{
+				text-decoration: none;
+				color: inherit;
+			}
+
+			p.current{
+				color: #e0d5c1;
+			}
+			p.nav{
+				color: #981c1e;
+			}
+			p.title{
+				margin: auto;
+				top: 42%;
+				text-align: center;
+				position: relative;
+			}
+
+			div{
+				box-sizing: border-box;
+				background-color:black;
+			}
+			h1{
+				margin-left: 20px;
+				color:#e0d5c1;
+			}
+			
+			#movie{
+				float: left;
+				height: 75%;
+				width: 20%;
+				margin: 5px;
+				color: white;
+				text-align: center;
+			}
+			img.thumbnail{
+				width: 100%;
+				height: 85%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<img src="title.jpg" class = "main_img" alter="main_img">
+		</div>
+		
+		<div id="nav">
+			<p class = "current"><a href="current.html">현재 상영 영화</a></p>
+			<p class = "nav"><a href="recommend.html">장르별 영화 추천</a></p>
+			<p class = "nav"><a href="comingsoon.html">개봉 예정 영화</a></p>
+			<p class = "nav"><a href="theater.html">영화관 사이트</a></p>
+		</div>
+		<div id="content">
+			<h1>현재 상영작</h1>
+			<div id="movie">
+				<img src="rank1.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					1위. 남한산성
+				</div>
+			</div>
+			<div id="movie">
+				<img src="rank2.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					2위. 범죄도시
+				</div>
+			</div>
+			<div id="movie">
+				<img src="rank3.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					3위. 킹스맨: 골든서클
+				</div>
+			</div>
+			<div id="movie">
+				<img src="rank4.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					4위. 아이 캔 스피크
+				</div>
+			</div>
+			<div id="movie">
+				<img src="rank5.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					5위. 베이비 드라이버
+				</div>
+			</div>
+			<div id="movie">
+				<img src="rank6.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					6위. 살인자의 기억법
+				</div>
+			</div>
+			<div id="movie">
+				<img src="rank7.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					7위. 김광석
+				</div>
+			</div>
+			<div id="movie">
+				<img src="rank1.jpg" class = "thumbnail" alt="title poster">
+				<div>
+					8위. 
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p>made by Hanbin.</p>
+		</div>
+	</body>
+</html>
